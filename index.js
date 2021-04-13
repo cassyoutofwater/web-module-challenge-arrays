@@ -65,7 +65,12 @@ Confirm that an array is exactly 31 flavors. Your function should accept:
 
 For Example: is31Flavors(originalFlavors) will return true if your code is working properly
 */
-
+function is31Flavors(list) {
+    if (list.length === 31) {
+      return true;
+    }
+    else return false
+  }
 
 function is31Flavors(/*your code here*/){
    /*your code here*/
